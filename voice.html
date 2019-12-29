@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Speech Recognition</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootsrap/4.3.1/css/bootstrap.css"
+    />
+
+    <style>
+      body {
+        background: linear-gradient(to right, purple, blue);
+        font-family: "helvetica neve";
+        font-weight: 200;
+        font-size: 50px;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+      }
+      .words {
+        max-width: 500px;
+        margin: 50px auto;
+        background: white;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body id="words">
+    <div class="container mt-4">
+      <div id="words"></div>
+    </div>
+
+    <script src="./voice.js"></script>
+  </body>
+</html>
