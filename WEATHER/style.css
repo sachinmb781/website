@@ -1,0 +1,36 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url('https://image.shutterstock.com/image-photo/sky-clouds-sun-260nw-133098281.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+}
+.temp{
+    font-size: 65px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #111;
+}
+.icon img{
+    float:right;
+    position:absolute;
+    right: 0px;
+    top: 24px;
+    width: 157px;
+}
+.card{
+background: transparent;
+box-shadow: inset 1px 1px 39px 1px #666;
+}
+.des{
+    font-size: 30px;
+}
+p{
+    border-bottom: 25px;
+}
+.t{
+    position: relative;
+    bottom: 18px;
+}
